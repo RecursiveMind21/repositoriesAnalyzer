@@ -1,0 +1,24 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font faces */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Material Symbols */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+/* Global styles */
+#webcrumbs {
+  @apply min-h-screen w-full;
+}
+
+/* Custom components */
+.bg-gradient-header {
+  @apply bg-gradient-to-r from-primary-600 to-primary-800;
+}
+
+.metric-card {
+  @apply bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-200;
+}
