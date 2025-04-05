@@ -42,12 +42,8 @@ export default function Header() {
                     </svg>
                     <h1 className="text-2xl font-bold text-gray-900">GitInsight</h1>
                 </div>
-                <nav className="hidden md:flex items-center gap-8">
-                    <a href="https://webcrumbs.cloud/placeholder" className="font-medium hover:text-primary-600 transition-colors">Features</a>
-                    <a href="/about" className="font-medium hover:text-primary-600 transition-colors">About</a>
-                </nav>
                 <div className="flex items-center gap-4">
-                    <a href="/login" className="px-4 py-2 font-medium hover:text-primary-600 transition-colors">Login</a>
+                    <a href="https://webcrumbs.cloud/placeholder" className="px-4 py-2 font-medium hover:text-primary-600 transition-colors">Login</a>
                     <a href="https://webcrumbs.cloud/placeholder" className="px-5 py-2 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors shadow-sm hover:shadow-md">Sign Up</a>
                 </div>
                 <button className="md:hidden text-gray-700 hover:text-primary-600 transition-colors">

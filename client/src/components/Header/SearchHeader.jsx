@@ -7,7 +7,7 @@ export default function SearchHeader() {
             {/* Site Logo / Name */}
             <div className="flex items-center">
                 <Link to="/" className="text-2xl font-bold text-gray-800">
-                    RepoAnalyzer
+                    GitInsight
                 </Link>
             </div>
             {/* Navigation: Home Button Only */}

@@ -1,5 +1,3 @@
-// index.js (No GitHub Token)
-
 import express from "express";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
@@ -16,7 +14,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-// No token; public GitHub API headers
 const githubHeaders = {
   Accept: "application/vnd.github.v3+json",
   "User-Agent": "RepoAnalyzer/1.0",

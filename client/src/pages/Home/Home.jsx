@@ -26,12 +26,6 @@ export default function Home() {
                                 Analyze
                             </a>
                         </div>
-                        <div className="pt-4 flex items-center gap-2 text-gray-600">
-                            <svg className="w-5 h-5 text-primary-600" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                            </svg>
-                            <span>No credit card required</span>
-                        </div>
                     </div>
                     <div className="flex-1">
                         <div className="relative rounded-2xl bg-gradient-to-br from-white to-gray-100 shadow-xl p-6 border border-gray-200 transition-all transform hover:-translate-y-2 hover:shadow-2xl">
@@ -64,11 +58,9 @@ export default function Home() {
                                         <div className="text-xs text-gray-500">Last 30 days</div>
                                     </div>
                                     <div className="h-36 flex items-end gap-1">
-                                        {/* Example bars for commit activity */}
                                         <div className="w-full bg-primary-200 hover:bg-primary-300 transition-all rounded-sm cursor-pointer relative group" style={{ height: '30%' }}>
                                             <div className="opacity-0 group-hover:opacity-100 absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs py-1 px-2 rounded transition-opacity">30 commits</div>
                                         </div>
-                                        {/* Add more bars as needed */}
                                     </div>
                                 </div>
                             </div>

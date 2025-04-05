@@ -1,9 +1,11 @@
 // src/App.jsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Search from './pages/Search/Search'; // Placeholder for Search component
-import Analysis from './pages/Analysis/Analysis'; // Placeholder for Analysis component
-import Report from './pages/Report/Report'; // Placeholder for Report component
+import Search from './pages/Search/Search'; 
+import Analysis from './pages/Analysis/Analysis'; 
+import Report from './pages/Report/Report'; 
+import About from './pages/About/About';
+import Login from './pages/Login/Login';
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/analysis" element={<Analysis />} />
         <Route path="/report" element={<Report />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login/ >} />
       </Routes>
     </BrowserRouter>
   );

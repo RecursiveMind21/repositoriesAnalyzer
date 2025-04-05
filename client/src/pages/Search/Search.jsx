@@ -10,7 +10,6 @@ export default function Search() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // Add API call here if desired before navigation
         navigate('/analysis', { state: { url } });
     };
 
@@ -21,7 +20,7 @@ export default function Search() {
             <div className="flex-1 flex items-center justify-center px-4">
                 <div className="bg-white rounded-xl shadow-2xl p-10 max-w-3xl w-full">
                     <h1 className="text-5xl font-bold text-gray-800 text-center mb-4">
-                        RepoAnalyzer
+                        GitInsight
                     </h1>
                     <p className="text-gray-600 text-lg text-center mb-8">
                         Enter a GitHub repository URL below and generate actionable insights
